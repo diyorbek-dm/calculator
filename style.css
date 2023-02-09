@@ -150,14 +150,14 @@
 
 /** Media */
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .wrapper {
-    max-width: 260px;
+    max-width: 335px;
     margin: 0 auto;
   }
 
   .mode {
-    margin: 20px 20px 50px 0px;
+    margin: 20px 20px 55px 0px;
   }
 
   .darkMode {
@@ -166,26 +166,26 @@
   }
 
   .output {
-    width: 260px;
-    height: 71px;
+    width: 335px;
+    height: 85px;
     margin-bottom: 40px;
+    border-radius: 10px;
   }
 
   .task {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .result {
-    font-size: 25px;
+    font-size: 32px;
   }
 
-  .result-light {}
-
   .buttons {
-    grid-template-columns: repeat(4, 45px);
-    grid-template-rows: repeat(5, 40px);
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 60px);
     padding: 6px 4px;
-    gap: 10px;
+    column-gap: 17px;
+    row-gap: 20px;
   }
 
   .btn {
@@ -194,15 +194,13 @@
     border-radius: 5px;
   }
 
-  .btn-light {}
-
   .zero {
     grid-column: 1 / 3;
   }
 
   .equals {
-    width: 45px;
-    height: 105px;
+    width: 70px;
+    height: 139px;
     box-shadow: 0px 0px 5px #A160FB;
     border-radius: 5px;
   }
